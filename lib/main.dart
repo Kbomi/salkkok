@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:hive/hive.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:path_provider/path_provider.dart';
 
@@ -12,6 +11,8 @@ void main() async {
 }
 
 class SalkkokApp extends StatelessWidget {
+  const SalkkokApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(title: '살꼭', home: MemoTabbedPage());
@@ -19,6 +20,8 @@ class SalkkokApp extends StatelessWidget {
 }
 
 class MemoTabbedPage extends StatefulWidget {
+  const MemoTabbedPage({super.key});
+
   @override
   _MemoTabbedPageState createState() => _MemoTabbedPageState();
 }
