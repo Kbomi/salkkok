@@ -1,4 +1,4 @@
-package com.example.app
+package com.bomi.salkkok
 
 import io.flutter.embedding.android.FlutterActivity
 
