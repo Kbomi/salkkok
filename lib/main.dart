@@ -192,6 +192,7 @@ class _MemoTabbedPageState extends State<MemoTabbedPage> {
     return Scaffold(
       appBar: AppBar(
         title: Image.asset('assets/images/logo_appbar.png', height: 36),
+        centerTitle: true,
       ),
       body: Column(
         children: [
@@ -199,6 +200,7 @@ class _MemoTabbedPageState extends State<MemoTabbedPage> {
             padding: EdgeInsets.all(8.0),
             child: Row(
               children: [
+                SizedBox(width: 10),
                 Expanded(
                   child: TextField(
                     controller: placeController,
